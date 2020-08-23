@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jifi calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section class="calculator">
+        <h1>Jifi calculator</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">
+                        <div class="screen">
+                            <span id="screen-resultat"></span>
+                            <span id="screen-content">.0</span>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="button">
+                <tr>
+                    <td><a href="#" data-type="number" data-content="7">7</a></td>
+                    <td><a href="#" data-type="number" data-content="8">8</a></td>
+                    <td><a href="#" data-type="number" data-content="9">9</a></td>
+                    <td><a href="#" data-type="reset" data-content="CE">CE</a></td>
+                    <td><a href="#" data-type="clean" data-content="C">C</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#" data-type="number" data-content="4">4</a></td>
+                    <td><a href="#" data-type="number" data-content="5">5</a></td>
+                    <td><a href="#" data-type="number" data-content="6">6</a></td>
+                    <td><a href="#" data-type="opperator" data-content="/">/</a></td>
+                    <td><a href="#" data-type="opperator" data-content="*">*</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#" data-type="number" data-content="1">1</a></td>
+                    <td><a href="#" data-type="number" data-content="2">2</a></td>
+                    <td><a href="#" data-type="number" data-content="3">3</a></td>
+                    <td><a href="#" data-type="opperator" data-content="-">-</a></td>
+                    <td rowspan="2"><a href="#" class="rowspan" data-type="opperator" data-content="+">+</a></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><a href="#" class="colspan" data-type="number" data-content="0">0</a></td>
+                    <td><a href="#" data-type="float" data-content=".">.</a></td>
+                    <td><a href="#" data-type="equal" data-content="=">=</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
